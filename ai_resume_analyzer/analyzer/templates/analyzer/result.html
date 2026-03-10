@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Analysis Result</title>
+</head>
+<body>
+
+<h2>Extracted Resume Text</h2>
+
+<pre style="white-space: pre-wrap; border:1px solid #ccc; padding:10px;">
+{{ text }}
+</pre>
+
+
+<h2>Detected Skills</h2>
+
+{% if skills %}
+<ul>
+    {% for skill in skills %}
+        <li>{{ skill }}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No skills detected.</p>
+{% endif %}
+
+<a href="/">Upload another resume</a>
+
+</body>
+</html>

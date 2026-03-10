@@ -1,0 +1,24 @@
+python
+java
+c++
+django
+flask
+sql
+mysql
+postgresql
+html
+css
+javascript
+machine learning
+deep learning
+data science
+numpy
+pandas
+tensorflow
+pytorch
+git
+github
+docker
+linux
+aws
+azure
